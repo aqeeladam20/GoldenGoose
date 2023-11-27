@@ -1,0 +1,11 @@
+#paypal-button-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  @media (max-width: 800px) {
+    #paypal-button-container {
+      margin-left: 0; /* Reset left margin for smaller screens */
+    }
+  }

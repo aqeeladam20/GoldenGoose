@@ -1,0 +1,23 @@
+/* EpubViewer.css */
+.epub-viewer-container {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(250, 248, 248);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .epub-viewer-buttons {
+    margin-top: 10px;
+
+  }
+  
+  .epub-viewer-button {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black; 
+    padding: 10px;
+    background-color: rgba(245, 245, 11, 0.842); 
+    border-radius: 6px;
+  }
+  

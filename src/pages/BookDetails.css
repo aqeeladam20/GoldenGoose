@@ -1,0 +1,22 @@
+/* BookDetails.css */
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .book-details-container {
+    text-align: center;
+  }
+  
+  .book-cover {
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh; /* Set a maximum height for the image */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto; /* Ensure the image width adjusts based on its height */
+  }
+  
+  

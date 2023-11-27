@@ -1,0 +1,121 @@
+.upper-frame {
+  height: 20vh;
+  position: relative;
+  background: linear-gradient(120deg, #d4d267c8, #FFC107);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 20%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+  
+  .pen-tip {
+    position: absolute;
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #FFF9C4;
+    border-top-left-radius: 50% 80%;
+    border-top-right-radius: 50% 80%;
+    border-bottom-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+  }
+  
+  /* Apply the "Playfair Display" font to the "Welcome" text */
+.welcome-container h1 {
+  font-family: 'Playfair Display', serif; /* Use the chosen font-family name */
+  font-weight: 900; /* Set the font weight to 900 as you mentioned */
+  font-size: 44px; /* Adjust the font size as needed */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #2a2929; /* Adjust the text color */
+}
+
+/* Apply custom styles to make it more aesthetically pleasing */
+.welcome-container p {
+  font-family: 'Playfair Display', serif; /* Use the same font-family as the heading */
+  font-weight: 900; /* Set the font weight to 900 */
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 10px 0; /* Add some margin for separation */
+  text-align: center;
+  color: #555; /* Adjust the text color */
+}
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter-image {
+  width: 500px;
+  height: auto;
+}
+
+  button {
+    background: #FFD54F;
+    color: #FFF9C4;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background: #FFC107;
+  }
+  
+  
+  /* Targeting the outlined button to change its text color to black */
+.welcome-container ion-button[fill="outline"] {
+    --color: black; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px; /* Add space between the buttons */
+}
+
+.button-container ion-button {
+  max-width: unset; /* Remove max-width to allow buttons to fill available space */
+  width: 150px; /* Set a specific width to make both buttons of the same size */
+  height: 50px; /* Height to make them slightly bigger */
+  font-weight: 500; /* Adjust font weight if needed */
+}
+
+/* For the Login button */
+.welcome-container ion-button [fill="outline"] {
+  
+    --color: #555;  /* This sets the color to a softer black */
+    --border-color: #555; /* Adjusting the border color to match the text */
+}
+
+/* For the Sign Up button with an outline */
+.welcome-container ion-button[fill="outline"] {
+    --color: #555;  /* This sets the color to a softer black */
+    --border-color: #555; /* Adjusting the border color to match the text */
+}
+
+.centered-text {
+  font-family: 'Playfair Display', serif; /* Use the same font-family as the heading */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}

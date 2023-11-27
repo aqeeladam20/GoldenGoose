@@ -1,0 +1,125 @@
+/* Login.css */
+
+.upper-frame {
+  height: 20vh;
+  position: relative;
+  background: linear-gradient(120deg, #d4d267c8, #FFC107);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 20%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pen-tip {
+  position: absolute;
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #FFF9C4;
+    border-top-left-radius: 50% 80%;
+    border-top-right-radius: 50% 80%;
+    border-bottom-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+}
+
+.welcome-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color: #282828;
+}
+.welcome-container p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color: #555;
+}
+
+.welcome-container h1 {
+  font-size: 44px;
+}
+
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter-image {
+  width: 500px;
+  height: auto;
+}
+
+.form-container {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.forgot-password {
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+.forgot-password a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+#login-signin-btn {
+  --background: #FFC107;
+  --border-radius: 5px;
+  width: 80%; /* Adjust as needed */
+  max-width: 300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Specific Ionic overrides */
+ion-button.signin-btn {
+  --background-activated: #e6a000; /* Color when the button is tapped */
+  --background-focused: #FFC107; /* Color when the button is focused */
+  --background-hover: #e6a000; /* Color when hovered */
+  --box-shadow: none; /* Removes any box-shadow */
+  --ripple-color: transparent; /* Removes the ripple effect color */
+}
+
+/* Remove hover effect if not desired */
+ion-button.signin-btn:hover {
+  --background: #e6a000;
+}
+
+
+
+

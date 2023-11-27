@@ -1,0 +1,35 @@
+ion-menu::part(backdrop) {
+    background-color: rgba(255, 170, 0, 0.5);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(255, 234, 0, 0.18);
+  }
+
+ /* ContentManagement.css or your CSS file */
+ .book-item {
+  background: linear-gradient(to bottom, #ffa500, #8a8376); /* Gradient from orange to grey */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+  
+.book-cover {
+  width: 100%;
+  max-height: 200px; /* Adjust the max height as needed */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+  
+.book-title {
+  font-weight: bold;
+  color: #fff; /* Set text color to white */
+}
+.books-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1f1e1e; /* Set text color to white */
+}

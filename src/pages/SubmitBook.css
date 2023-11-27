@@ -1,0 +1,120 @@
+/* Base styles for the container */
+.submit-book-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure full width */
+}
+
+/* Styles for the form and its elements */
+.submitBook-form-container {
+  background-color: rgba(255, 255, 0, 0.1); /* Tinted yellow background */
+  border-radius: 35px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%; /* Full width on mobile */
+  box-sizing: border-box; /* Include padding in width */
+  max-width: 600px; /* Maximum width of form */
+}
+
+/* Styles for individual input groups */
+.inputGroup {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input and select styling */
+input, .ion-select {
+  font-size: 18px;
+  border: 2px solid rgb(245, 214, 57);
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+/* Button container */
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Button styling */
+.big-button {
+  background-color: #FFD700; /* Gold color */
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 50%; /* Button width */
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.big-button:hover {
+  background-color: #FFC107;
+}
+
+/* Title display */
+.title-display-container {
+  background-color: rgba(255, 215, 0, 0.5); /* Solid yellow color */
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Responsive media query for mobile screens */
+@media (max-width: 768px) {
+  .big-button {
+    width: 100%; /* Full width button on mobile */
+  }
+
+  .form-container {
+    border-radius: 25px; /* Slightly less rounded corners on mobile */
+  }
+
+  /* Adjusting title size on smaller screens */
+  ion-title {
+    font-size: 16px; /* Adjust title size */
+  }
+}
+
+/* Header and title styles */
+ion-header {
+  height: auto;
+}
+
+ion-toolbar {
+  --min-height: 50px;
+}
+
+ion-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Apply to all buttons you want to have this yellow style */
+.custom-yellow-button {
+  --background: #FFD700; /* Gold color */
+  --background-activated: #FFC107; /* Slightly darker on tap */
+  --border-radius: 15px;
+  --color: black;
+  --padding: 15px 20px;
+}
+
+/* Additional styling for the 'Submit' button if needed */
+.submit-button {
+  width: 100%; /* Full width */
+  max-width: 400px; /* or whatever maximum width you want */
+}
+

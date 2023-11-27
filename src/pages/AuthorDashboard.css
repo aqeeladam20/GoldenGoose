@@ -1,0 +1,45 @@
+ion-menu::part(backdrop) {
+    background-color: rgba(255, 170, 0, 0.5);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(255, 234, 0, 0.18);
+  }
+
+  /* Style for buttons */
+.content-btn {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff; /* Background color changed to white */
+  color: #000; /* Text color changed to black */
+  border: 2px solid #000; /* Button border set to black */
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem; /* Add space between buttons */
+  display: block;
+  margin: 0 auto;
+}
+
+.content-btn:hover {
+  background-color: #c28905;
+  color: #fff; /* Text color on hover changed to white */
+}
+
+/* Rest of your CSS remains the same */
+.content-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.content-text a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+  
+  

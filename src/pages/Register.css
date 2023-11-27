@@ -1,0 +1,124 @@
+/* Register.css */
+
+.upper-frame {
+  height: 20vh;
+  position: relative;
+  background: linear-gradient(120deg, #d4d267c8, #FFC107);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 20%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.pen-tip {
+  position: absolute;
+  bottom: -5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #FFF9C4;
+  border-top-left-radius: 50% 80%;
+  border-top-right-radius: 50% 80%;
+  border-bottom-left-radius: 10% 30%;
+  border-bottom-right-radius: 10% 30%;
+}
+.welcome-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color: #282828;
+}
+.welcome-container p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color: #555;
+}
+
+.welcome-container h1 {
+  font-size: 44px;
+}
+
+.form-container {
+  width: 80%; /* Set a specific width, adjust as needed */
+  max-width: 400px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center align the form within the container */
+}
+
+input[type="firstname"],
+input[type="surname"],
+input[type="username"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+ion-button.signin-btn{
+  width: 100%;
+  max-width: 200px; /* Set a maximum width for the button */
+  background-color: #FFC107;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  /* Center the button horizontally and vertically */
+  display: block;
+  margin: 0 auto;
+}
+
+.register-btn {
+  --background: #FFC107 !important;
+  --border-radius: 5px !important;
+  width: 80%; /* Adjust as needed */
+  max-width: 300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the button */
+  border: none !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Add any additional styles you need here */
+}
+
+
+
+.signin-btn:hover {
+  background-color: #e6a000;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+
